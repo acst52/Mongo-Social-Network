@@ -3,6 +3,7 @@
 const { Thought, User } = require('../models');
 
 const thoughtController = {
+// THOUGHT CRUD OPERATIONS:
     // get all thoughts
     async getAllThoughts(req, res) {
         try {
@@ -64,6 +65,7 @@ const thoughtController = {
             res.json(500).json(error);
         }
     },
+// REACTION CRUD OPERATIONS:
     // delete reaction by reactionId
     async deleteReaction(req, res) {
         try {
@@ -79,6 +81,6 @@ const thoughtController = {
             res.json(500).json(error);
         }
     }
-}
+};
 
 module.exports = thoughtController;
