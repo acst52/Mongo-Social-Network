@@ -29,7 +29,6 @@ const reactionSchema = new Schema(
 }
 );
 
-// init Reaction model
-const Reaction = model('Reaction', reactionSchema);
+// No need to init - reactionSchema used as a subdoc schema in Thought model. Only need to export reactionSchema & import into Thought mod
 
-module.exports = Reaction;
+module.exports = reactionSchema;
