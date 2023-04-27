@@ -66,6 +66,21 @@ const thoughtController = {
         }
     },
 // REACTION CRUD OPERATIONS:
+    // create reaction
+    async createReaction(req, res) {
+        try {
+            const thoughtData = await Thought.findOneAndUpdate(
+                { _id: req.params.thoughtId },
+                { $push: { reactions: req.body } },
+                { new: true, runValidators: true }
+            );
+            !thoughtData
+                ? res.status(404).json({ message: 'No thought found with that ID!' })
+                : res.json(thoughtData);
+        } catch (error) {
+            res.json(500).json(error);
+        }
+    },
     // delete reaction by reactionId
     async deleteReaction(req, res) {
         try {
