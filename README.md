@@ -47,7 +47,7 @@ There are no tests for this project.
 
 ## Sources
 
-Please note that my tutor, [Andrew Mason](https://github.com/atmason90), helped me complete this challenge. Web sources were also used, including ![Stack Overflow](https://stackoverflow.com/) and ![ChatGPT](https://chat.openai.com).
+Please note that my tutor, [Andrew Mason](https://github.com/atmason90), helped me complete this challenge. Web sources were also used, including [Stack Overflow](https://stackoverflow.com/) and [ChatGPT](https://chat.openai.com).
 
 ## Questions
 
