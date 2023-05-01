@@ -5,7 +5,7 @@
 ## Description
 
 In this Module 18 Challenge, we were tasked to build an API for a social network web app, where users share their thoughts, add friends to their friends list, and react to friends' thoughts! We used Express.js for routing, the Mongoose ODM And a MongoDB database. This app wasn't deployed, but we tested all the endpoints in Insomnia Core, which you can see in the walkthrough video. You can peep said walkthrough video here: 
-[![Walkthrough Video](https://user-images.githubusercontent.com/116177485/234979172-eda6acf0-ff4a-4c55-bea5-75a5c4f355af.png)](https://youtu.be/qIegb-J6Lcw)
+[![Walkthrough Video](https://user-images.githubusercontent.com/116177485/234979172-eda6acf0-ff4a-4c55-bea5-75a5c4f355af.png)](https://youtu.be/DX4TfZM4xy0)
 
 ## Table of Contents
 
